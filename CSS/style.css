@@ -1,0 +1,29 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+[class^=col]{
+    height: 40px;
+    background-color: #006cfa;
+    margin: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+[class^=nested]{
+    height: 30px;
+    background-color: #00e165;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
