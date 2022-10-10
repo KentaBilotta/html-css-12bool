@@ -28,3 +28,34 @@
     justify-content: center;
     align-items: center;
 }
+
+[class^=double]{
+    height: 60px;
+    margin: 2px;
+    background-color: #006cfa;
+    display: flex;
+    align-items: center;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top{
+    align-self: flex-start;
+}
+
+.middle{
+    align-self: center;
+}
+
+.bottom{
+    align-self: flex-end;
+}
